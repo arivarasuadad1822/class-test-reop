@@ -10,6 +10,6 @@ jobs:
     runs-on: [self-hosted, Linux]
     steps:
       - name: print
-        run: echo $((vars.TESTVARIABLE))
+        run: echo ${{ vars.TESTVARIABLE }}
       - name: print text
-        run: echo $((secrts.TESTSECRET))
+        run: echo ${{ secrts.TESTSECRET }}
