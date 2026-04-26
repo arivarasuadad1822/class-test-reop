@@ -1,0 +1,15 @@
+name: TestWorkflow Name
+
+on:
+  #push:
+    #branches: [main]
+  workflow_dispatch: 
+
+jobs:
+  job-name:
+    runs-on: [self-hosted, Linux]
+    steps:
+      - name: print
+        run: echo $((vars.TESTVARIABLE))
+      - name: print text
+        run: echo $((secrts.TESTSECRET))
