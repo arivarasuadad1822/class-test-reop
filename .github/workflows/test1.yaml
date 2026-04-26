@@ -1,0 +1,13 @@
+name: Workflow Name
+
+on:
+  #push:
+    #branches: [main]
+  workflow_dispatch: 
+
+jobs:
+  job-name:
+    runs-on: [self-hosted, Linux]
+    steps:
+      - name: Step name
+        run: echo "Hello team"
