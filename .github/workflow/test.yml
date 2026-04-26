@@ -1,13 +1,1 @@
-name: Workflow Name
 
-on:
-  push:
-    branches: [main]
-
-jobs:
-  Test-Basic
-    runs-on: [self-hosted,Linux]
-    
-    steps:
-      - name: test file
-        run: echo "Hello Team"
