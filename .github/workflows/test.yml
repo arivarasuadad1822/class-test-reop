@@ -9,4 +9,4 @@ jobs:
     runs-on: [self-hosted, Linux]
     steps:
       - name: Step name
-        run: echo "Hello"
+        run: echo "Hello team"
