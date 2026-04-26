@@ -1,4 +1,4 @@
-name: TestWorkflow Name
+name: sec vs var Workflow Name
 
 on:
   #push:
